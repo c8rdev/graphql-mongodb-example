@@ -1,0 +1,27 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "selim can ozdemir",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "apollo-server": "^2.13.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "graphql-import": "^1.0.2",
+    "graphql-middleware": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "mongoose-immutable-plugin": "^1.0.3",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,17 @@
+type Query {
+    getUsers: [User]
+}
+
+type Mutation {
+    login(email: String!, password: String!): Jwt
+    signup(email: String!, password: String! ): Jwt
+}
+
+type Jwt {
+    token: String
+}
+
+type User {
+    email: String
+    password: String
+}
