@@ -9,6 +9,8 @@
 
 - :heavy_check_mark: JWT Authentication
 
+- :heavy_check_mark: PBKDF2
+
 ### Screenshots
 
 #### :fire:	Signup Mutation
