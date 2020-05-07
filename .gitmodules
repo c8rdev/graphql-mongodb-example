@@ -1,0 +1,3 @@
+[submodule "docker-compose-files"]
+	path = docker-compose-files
+	url = https://github.com/selimcanozdemir/docker-compose-files.git
